@@ -18,3 +18,4 @@ mongoose.connect(process.env.MONGO_URL)
 })
 .catch((error) => console.log('NOt Connected ',error))
 
+module.exports = app;
